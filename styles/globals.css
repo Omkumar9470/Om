@@ -14,7 +14,6 @@ body {
   font-family: 'WDXL Lubrifont TC', sans-serif;
 }
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
