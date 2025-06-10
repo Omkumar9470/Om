@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'WDXL Lubrifont TC';
+  src: url('/fonts/WDXL-Lubrifont-TC.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }
+
+
+body {
+  font-family: 'WDXL Lubrifont TC', sans-serif;
+}
+
 
 @layer utilities {
   .text-balance {
