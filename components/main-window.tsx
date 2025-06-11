@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function MainWindow() {
   return (
-    <div className="w-full max-w-4xl mx-auto md:ml-28 border-4 border-black rounded-xl  bg-[#c0c0c0] overflow-hidden">
+    <div className="w-full max-w-full mx-auto sm:max-w-4xl md:ml-28 border-4 border-black sm:rounded-xl rounded-md bg-[#c0c0c0] overflow-hidden">
 
       {/* Window title bar */}
       <div className="bg-white text-black px-2 py-1 flex items-center justify-between border-b-2 border-black">
@@ -33,7 +33,7 @@ export default function MainWindow() {
       </div>
 
       {/* Window content */}
-      <div className="p-6 flex flex-col md:flex-row gap-6 bg-white">
+      <div className="p-3 sm:p-6 flex flex-col md:flex-row gap-3 sm:gap-6 bg-white">
         <div className="md:w-1/2">
           <div className="border-2 rounded-lg border-black p-1 bg-white">
             <Image

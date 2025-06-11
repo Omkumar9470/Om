@@ -9,10 +9,10 @@ export default function ContactPage() {
       <TopBar />
       <div className="flex-1 flex p-4 gap-4 max-w-7xl mx-auto w-full">
         <Sidebar currentPage="contact" />
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex  ml-6 items-center justify-center">
           <ContactWindow />
         </div>
-        <div className="w-80 space-y-4">
+        <div className="w-80 space-y-4 hidden md:block">
           <Notifications />
         </div>
       </div>

@@ -9,10 +9,10 @@ export default function TestimonialsPage() {
       <TopBar />
       <div className="flex-1 flex p-4 gap-4 max-w-7xl mx-auto w-full">
         <Sidebar currentPage="testimonials" />
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center sm:w-full sm:items-center sm:justify-center sm:mx-auto ml-6 justify-center">
           <TestimonialsWindow />
         </div>
-        <div className="w-80 space-y-4">
+        <div className="w-80 space-y-4 hidden md:block">
           <Notifications />
         </div>
       </div>

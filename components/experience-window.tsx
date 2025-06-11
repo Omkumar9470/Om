@@ -19,7 +19,7 @@ export default function ExperienceWindow() {
   ]
 
   return (
-    <div className="w-full max-w-4xl mx-auto md:ml-28 border-4 border-black rounded-xl bg-white overflow-hidden">
+    <div className="w-full max-w-full mx-auto sm:max-w-4xl  border-4 border-black sm:ml-5 sm:rounded-xl rounded-md bg-white overflow-hidden">
       <div className="w-full max-w-4xl border- border-black bg-white overflow-hidden">
       <div className="bg-white text-black px-2 py-1 flex items-center justify-between border-b-2 border-black">
         <div className="flex items-center gap-2">
@@ -41,9 +41,9 @@ export default function ExperienceWindow() {
         </div>
       </div>
 
-        <div className="p-6 bg-white">
+        <div className="p-3 sm:p-6 bg-white">
           <h2 className="text-2xl mb-4 text-black">My Journey Through Digital Realms</h2>
-          <div className="space-y-6">
+          <div className="space-y-3 sm:space-y-6">
             {experiences.map((exp, index) => (
               <div key={index} className="border-2 rounded-md border-black p-4 bg-[#f0f0f0]">
                 <h3 className="font-bold text-lg text-black">{exp.title}</h3>
