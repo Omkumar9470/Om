@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function ContactWindow() {
   return (
-    <div className="w-full max-w-4xl mx-auto md:ml-28 border-4 border-black rounded-xl bg-white overflow-hidden">
+    <div className="w-full max-w-full mx-auto sm:max-w-4xl md:ml-28 border-4 border-black sm:rounded-xl rounded-md bg-white overflow-hidden">
       <div className="w-full max-w-4xl border- border-black bg-white overflow-hidden"></div>
       <div className="bg-white text-black px-2 py-1 flex items-center justify-between border-b-2 border-black">
         <div className="flex items-center gap-2">
@@ -25,9 +25,9 @@ export default function ContactWindow() {
         </div>
       </div>
 
-      <div className="p-6 bg-white">
+      <div className="p-3 sm:p-6 bg-white">
         <h2 className="text-2xl mb-4 text-black">Let Us Forge Digital Magic Together</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
           <div className="space-y-4">
             <div className="border-2 border-black p-4 bg-[#f0f0f0]">
               <h3 className="font-bold text-black mb-2">

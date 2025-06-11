@@ -12,7 +12,7 @@ export default function TestimonialsWindow() {
   ]
 
   return (
-    <div className="w-full max-w-4xl mx-auto md:ml-28 border-4 border-black rounded-xl bg-white overflow-hidden">
+    <div className="w-full max-w-full mx-auto sm:max-w-4xl md:ml-28 border-4 border-black sm:rounded-xl rounded-md bg-white overflow-hidden">
       <div className="w-full max-w-4xl border- border-black bg-white overflow-hidden">
       <div className="bg-white text-black px-2 py-1 flex items-center justify-between border-b-2 border-black">
         <div className="flex items-center gap-2">
@@ -34,9 +34,9 @@ export default function TestimonialsWindow() {
         </div>
       </div>
 
-      <div className="p-6 bg-white">
+      <div className="p-3 sm:p-6 bg-white">
         <h2 className="text-2xl mb-4 text-black">What Lords and Ladies Say of My Deeds</h2>
-        <div className="space-y-6">
+        <div className="space-y-3 sm:space-y-6">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="border-2 rounded-sm border-black p-4 bg-[#f0f0f0]">
               <p className="text-black mb-3 italic">"{testimonial.quote}"</p>

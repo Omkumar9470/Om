@@ -9,10 +9,10 @@ export default function Home() {
       <TopBar />
       <div className="flex-1 flex p-4 gap-4 max-w-7xl mx-auto w-full">
         <Sidebar currentPage="welcome" />
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center ml-5 justify-center">
           <MainWindow />
         </div>
-        <div className="w-80 space-y-4">
+        <div className="w-80 space-y-4 hidden md:block">
           <Notifications />
         </div>
       </div>
