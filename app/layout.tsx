@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Om's Portfolio",
-  description: "Welcome to my portfolio - A retro OS-inspired design showcase",
+  description: "Welcome to my portfolio",
     generator: 'v0.dev'
 }
 
